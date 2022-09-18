@@ -41,10 +41,6 @@ h1, h2 {
   text-shadow: 2px 2px grey;
 }
 
-label {
-  display: block;
-  margin-bottom: 0.5em;
-}
 
 
 .member-item {
@@ -56,6 +52,8 @@ label {
   text-align: center;
   font-family: 'Cinzel', serif;
   color: #fff;
+  display: block;
+  margin-bottom: 0.5em;
 }
 
 .grid-container {
