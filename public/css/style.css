@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+
+body {
+  margin: 0;
+  color: #fff;
+  background: #c5a88c;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("greece.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+  padding-right: 10%;
+}
+
+header h1 {
+  font-family: 'Caesar Dressing', cursive;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px grey;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Caesar Dressing', cursive;
+  text-shadow: 2px 2px grey;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+
+.member-item {
+  padding: 0.30em 0;
+  font-family: 'Cinzel', serif;
+}
+
+label {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: #fff;
+}
+
+.grid-container {
+  display: grid;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, 200px);
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: 'Cinzel', serif;
+}
+
+button[type=submit] {
+  width: 30%;
+  background-color: #fff;
+  color:#7a6857;
+  padding: 10px 15px;
+  margin: 8px 10px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+}
+
+
+footer {
+  margin-top: 5em;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 0.90em;
+  color: #f76c6c;
+  background: #e7cfa3b6;
+  padding: 0.25em 0;
+}
